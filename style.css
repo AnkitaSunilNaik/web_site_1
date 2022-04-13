@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+}
+/* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}*/
+* {
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+a:link {
+}
+a:visited {
+}
+a:hover {
+  color: red;
+}
+a:active {
+}
+li {
+  list-style: none;
+}
+header {
+  display: flex;
+  /* manages space horizontally  */
+  justify-content: space-between;
+  align-items: center;
+}
+header h1 {
+  margin-left: 2rem;
+}
+nav {
+  margin-right: 1rem;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  width: 20rem;
+}
+ul > li {
+  width: 30%;
+  font-size: 1.5rem;
+}
+.main-img {
+  width: 100%;
+  height: auto;
+  /*trick*/
+}
+/* footer*/
+footer {
+  height: 4rem;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-weight: 400;
+  font-size: 2rem;
+}
+.parent {
+  /* border: 10px solid red; */
+  margin-top: 2rem;
+  display: flex;
+  /* text inside that parent 
+  includes image will be centered  */
+  text-align: center;
+  justify-content: space-evenly;
+}
+.child {
+  width: 30%;
+}
+
+.footer_content {
+  color: white;
+  /* boldness */
+  font-weight: 500;
+  font-size: 1.5rem;
+  /* enforce uppercase */
+  text-transform: uppercase;
+}
